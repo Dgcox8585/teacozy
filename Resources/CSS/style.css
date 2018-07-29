@@ -45,6 +45,7 @@ a {
 
 .section {
   display: flex;
+  flex-direction: column;
 }
 
 /* Mission */
@@ -78,8 +79,6 @@ a {
   margin-top: 150px;
   justify-content: space-between;
   flex-wrap: wrap;
-  flex-direction: column;
-  flex-flow: column wrap;
 }
 
 .first .berry {
