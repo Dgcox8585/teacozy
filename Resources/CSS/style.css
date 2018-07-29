@@ -56,7 +56,7 @@ a {
 }
 
 .mission .first {
-  background-image: url(../../resources/Images/background.jpg);
+  background-image: url(../../Resources/Images/background.jpg);
   width: 1200px;
   height: 700px;
   text-align: center;
@@ -77,7 +77,7 @@ a {
 }
 
 .first .berry {
-  background-image: url(../../resources/Images/berry.jpg);
+  background-image: url(../../Resources/Images/berry.jpg);
   width: 300px;
   height: 200px;
   margin-bottom: 10px;
@@ -85,24 +85,24 @@ a {
 }
 
 .second .spiced {
-  background-image: url(../../resources/Images/spiced.jpg);
+  background-image: url(../../Resources/Images/spiced.jpg);
   width: 300px;
   height: 200px;
 }
 .third .donut {
-  background-image: url(../../resources/Images/donut.jpg);
+  background-image: url(../../Resources/Images/donut.jpg);
   width: 300px;
   height: 200px;
 }
 
 .fourth .myrtle {
-  background-image: url(../../resources/Images/myrtle.jpg);
+  background-image: url(../../Resources/Images/myrtle.jpg);
   width: 300px;
   height: 200px;
 }
 
 .fifth .bedford {
-  background-image: url(../../resources/Images/bedford.jpg);
+  background-image: url(../../Resources/Images/bedford.jpg);
   width: 300px;
   height: 200px;
 }
