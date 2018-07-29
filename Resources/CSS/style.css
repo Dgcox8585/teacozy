@@ -40,6 +40,7 @@ a {
   width: 100%;
   padding-top: 69px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .section {
@@ -56,14 +57,17 @@ a {
 }
 
 .mission .first {
+  display: flex;
   background-image: url(../../Resources/Images/background.jpg);
   width: 1200px;
   height: 700px;
   text-align: center;
+  align-items: center;
 }
 
 .text {
   background-color: black;
+  width: 100%;
 }
 
 
@@ -73,15 +77,17 @@ a {
   width: 1000px;
   margin-top: 150px;
   justify-content: space-between;
-  flex-direction: wrap;
+  flex-wrap: wrap;
 }
 
 .first .berry {
+  display: flex;
   background-image: url(../../Resources/Images/berry.jpg);
   width: 300px;
   height: 200px;
   margin-bottom: 10px;
   text-align: center;
+  align-items: center;
 }
 
 .second .spiced {
