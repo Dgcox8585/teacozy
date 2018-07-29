@@ -4,6 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0px;
 }
 
 header {
@@ -84,7 +85,7 @@ a {
 .types {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   width: 1000px;
   margin: 0 auto;
@@ -145,6 +146,7 @@ a {
   background-image: url(../../Resources/Images/locations.jpg);
   background-size: cover;
   margin: 0 auto;
+  height: 500px;
 }
 
 .boxes {
