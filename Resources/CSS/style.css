@@ -1,0 +1,112 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+  padding-right: 20px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+  align-items: flex-start;
+}
+
+header nav {
+  align-items: flex-end;
+}
+
+a {
+  color: seashell;
+}
+
+/* Body */
+
+.container {
+  display: flex;
+  width: 100%;
+  padding-top: 69px;
+  flex-wrap: wrap;
+}
+
+.section {
+  display: flex;
+}
+
+/* Mission */
+
+.mission .section{
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission .first {
+  background-image: url(../../resources/Images/background.jpg);
+  width: 1200px;
+  height: 700px;
+  text-align: center;
+}
+
+.text {
+  background-color: black;
+}
+
+
+/* Featured Tea */
+
+.featured .section {
+  width: 1000px;
+  margin-top: 150px;
+  justify-content: space-between;
+  flex-direction: wrap;
+}
+
+.first .berry {
+  background-image: url(../../resources/Images/berry.jpg);
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.second .spiced {
+  background-image: url(../../resources/Images/spiced.jpg);
+  width: 300px;
+  height: 200px;
+}
+.third .donut {
+  background-image: url(../../resources/Images/donut.jpg);
+  width: 300px;
+  height: 200px;
+}
+
+.fourth .myrtle {
+  background-image: url(../../resources/Images/myrtle.jpg);
+  width: 300px;
+  height: 200px;
+}
+
+.fifth .bedford {
+  background-image: url(../../resources/Images/bedford.jpg);
+  width: 300px;
+  height: 200px;
+}
+
+/* Locations */
+
+/* Footer */
