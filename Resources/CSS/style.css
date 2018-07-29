@@ -41,6 +41,7 @@ a {
   padding-top: 69px;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 
 .section {
@@ -62,7 +63,6 @@ a {
   background-image: url(../../Resources/Images/background.jpg);
   width: 1200px;
   height: 700px;
-  text-align: center;
   align-items: center;
 }
 
@@ -79,10 +79,15 @@ a {
   margin-top: 150px;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .first .berry {
-  display: flex;
   background-image: url(../../Resources/Images/berry.jpg);
   width: 300px;
   height: 200px;
