@@ -138,12 +138,13 @@ a {
 .locations .section {
   display: flex;
   height: 500px;
-  width: 1000px;
+  width: 700px;
 }
 
 .table {
   background-image: url(../../Resources/Images/locations.jpg);
   background-size: cover;
+  margin: 0 auto;
 }
 
 .boxes {
@@ -152,26 +153,13 @@ a {
   justify-content: space-around;
 }
 
-.downtown {
+.location {
   width: 300px;
   opacity: 1;
   background-color: black;
-  margin-right: 20px;
+  margin: 15px 20px;
 }
 
-.east-baside {
-  width: 300px;
-  opacity: 1;
-  background-color: black;
-  margin: 0px 20px;
-}
-
-.oakdale {
-  width: 300px;
-  opacity: 1;
-  background-color: black;
-  margin-left: 20px;
-}
 
 /* Footer */
 
