@@ -85,43 +85,102 @@ a {
 .types {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   width: 1000px;
+}
+
+.types h4 {
+  margin-top: 10px;
 }
 
 .first .berry {
   background-image: url(../../Resources/Images/berry.jpg);
   width: 300px;
   height: 200px;
-  margin-bottom: 10px;
-  text-align: center;
-  align-items: center;
+  background-size: cover;
+  margin: 0 10px;
 }
 
 .second .spiced {
   background-image: url(../../Resources/Images/spiced.jpg);
   width: 300px;
   height: 200px;
+  background-size: cover;
+  margin: 0 10px;
 }
 .third .donut {
   background-image: url(../../Resources/Images/donut.jpg);
   width: 300px;
   height: 200px;
+  background-size: cover;
+  margin: 0 10px;
 }
 
 .fourth .myrtle {
   background-image: url(../../Resources/Images/myrtle.jpg);
   width: 300px;
   height: 200px;
+  background-size: cover;
+  margin: 0 10px;
 }
 
 .fifth .bedford {
   background-image: url(../../Resources/Images/bedford.jpg);
   width: 300px;
   height: 200px;
+  background-size: cover;
+  margin: 0 10px;
 }
 
 /* Locations */
 
+.locations .section {
+  display: flex;
+  background-image: url(../../Resources/Images/locations.jpg);
+  height: 500px;
+  width: 1000px;
+}
+
+.boxes {
+  display: flex;
+  margin: 15px 40px;
+
+}
+
+.downtown {
+  width: 300px;
+  opacity: 1;
+  background-color: black
+
+}
+
+.east-baside {
+  width: 300px;
+  opacity: 1
+  background-color: black
+}
+
+.oakdale {
+  width: 300px;
+  opacity: 1;
+  background-color: black
+}
+
 /* Footer */
+
+.Footer {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.copyright {
+  display: flex;
+  align-content: left;
+  margin-left: 20px;
+  width: 100%;
+}
